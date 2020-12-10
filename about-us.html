@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cycle</title>
+	<!-- Font awesomeCDN -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<!-- Scroll reveal CDN -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+			/* Global Styles*/
+			*,
+			*::before,
+			*,,after{
+				margin:0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			:root{
+				--main-font: 'Source Sans Pro', sans-serif;
+				--secondary-font: 'Herr Von Muellerhoff',cursive;
+				--body-font: 'Cabin', sans-serif;
+				--main-font-color-dark: #252525;
+				--secondary-font-color: #32a8a4;
+				--body-font-color: #515151;
+			}
+
+			html{
+				font-family: var(--body-font);
+				font-size: 10px;
+				color: var(--body-font-color);
+				scroll-behavior: smooth;
+			}
+
+			section{
+				padding: 3.9rem 0;
+			}
+
+			img{
+				width: 100%;
+				max-width: 100%;
+			}
+
+			a{
+				text-decoration: none;
+			}
+
+			p{
+				font-size: 1.6rem;
+			}
+
+			.container{
+				width: 100%
+				max-width 122.5rem;
+				margin: 0 auto;
+				padding: 0 2.4rem;
+			}
+
+			/* Header */
+			header{
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+				background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+			}
+
+			.nav{
+				height: 7.2rem;
+				display: flex;
+				align-items: : center;
+				justify-content: center;
+			}
+
+			.menu-toggles{
+				color: #fff;
+				font-size: 2.2rem;
+				position: absolute;
+				top: 50%;
+				transform: translate(-50%);
+				right: 2.5rem;
+				cursor: pointer;
+				z-index: 1500;
+			}
+
+			.fa-times{
+				display: none;
+			}
+
+			.nav-list{
+				list-style: none;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 80%;
+				height: 100vh;
+				background-color: var(--main-font-color-dark);
+				padding: 4.4rem;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				z-index: 1250;
+				transform: translateX(-100%);
+				transition: transform 0.5s;
+			}
+
+			 .nav::before{
+			 	content: '';
+			 	position: fixed;
+			 	top: 0;
+			 	left: 0;
+			 	width: 100vw;
+			 	height: 100vh;
+			 	background-color: rgba(0,0,0,.8);
+			 	z-index: 1000;
+			 	opacity: 0;
+			 	transform: scale(0);
+			 	transition: opacity .5s;
+			 }
+
+			 .open .fa-times{
+			 	display: block;
+			 }
+
+			.open .fa-bars{
+				display: none;
+			}
+			.open .nav-list{
+				transform: translateX(0);
+			}
+
+			.open .nav::before{
+				opacity: 1;
+				transform: scale(1);
+			}
+			.back-to-top{
+				width: 7rem;
+				height: 7rem;
+				background-color: #121212;
+				position: relative;
+				top: -3rem;
+				left: 50%;
+				transform: translateX(-50%);
+				border-radius: 50%;
+			}
+
+			.back-to-top i{
+				display: block;
+				color: #fff;
+				font-size: 2rem;
+				padding: 2rem;
+				animation: Up 2s infinite;
+			}
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<nav class="nav">
+				<div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</div>
+				<a href="index.html" class="logo"><img src="D:/html pages/img/oum3-removebg-preview.png" alt=""></a>
+				<ul class="nav-list">
+					<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="shop.html" class="nav-link active">Shop</a></li>
+					<li class="nav-item"><a href="news.html" class="nav-link active">News</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+					<li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Header end -->
+	<div class="About">
+		<div class="about animate-bottom">
+			<div class="inner-section">
+				<h1>About Us</h1>
+				<p class="texts">
+					ljsfvbhuefinbiuetbn etqiubjhvoeirnvbqwerjvboewnvi hqenonvi rhg9 jqwr9rg wrhg9uw0gj oqwrhg0q jwgpqerehg0wjettbipohweeb0jmwiobh
+				</p>
+				<div class="skills">
+					<a href="contact.html"><button>Contact Us</button></a>
+				</div>
+			</div>
+		</div>
+	</div>*/
+	<!-- about us tag ends-->
+	<div class="ourtean">	
+		<div class="our-team">
+			<h1 class="heading-our-team"><span>Our Team</span></h1>
+
+			<div class="profiles">
+				<div class="profile animate-left">
+					<img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" class="profile-img" alt="profile-img1">
+					<h3 class="user-name">William</h3>
+					<h5>Creative Director</h5>
+					<p>loremsdgf gwer gqe rgh eq rgh qewrgh qerwhgqerghqe rh eq rh</p>
+				</div>
+				<div class="profile animate-top">
+					<img src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" class="profile-img" alt="profile-img2">
+					<h3 class="user-name">John</h3>
+					<h5>Manager</h5>
+					<p>loremsdgf gwer gqe rgh eq rgh qewrgh qerwhgqerghqe rh eq rh</p>
+				</div>
+				<div class="profile animate-right">
+					<img src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjF8fHBvcnRyYWl0fGVufDB8fDB8&auto=format&fit=crop&w=500&q=60" class="profile-img" alt="profile-img3">
+					<h3 class="user-name">Sian</h3>
+					<h5>Project Manager</h5>
+					<p>loremsdgf gwer gqe rgh eq rgh qewrgh qerwhgqerghqe rh eq rh</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		<footer>
+			<div class="container">
+				<div class="back-to-top">
+					<a href="about-us.html"><i class="fas fa-angle-double-up" style="color: white"></i></a>
+				</div>
+				<div class="footer-content">
+					<div class="footer-content-about animate-top">
+						<h4>About Omicron Urban Mobility</h4>
+						<div class="asterisk"><i class="fas fa-asterisk"></i></div>
+						<p>
+							In this video tutorial we will build a responsive website from start to finish using HTML 5, CSS 3, and a little bit of Vanilla JavaScript. We will also learn how to use keyframes and hover effect animations.
+						</p>
+					</div>
+					<div class="footer-content-divider animate-bottom">
+						<div class="social-media">
+							<h4>Follow along</h4>
+							<ul class="social-icons">
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							</ul>
+						</div>
+						<div class="newsletter-container">
+							<a href="news.html" style="color: white"><h4>News</h4></a>
+							<form class="newsletter-form">
+								<input type="text" class="newsletter-input" placeholder="Your email address...">
+								<button class="newsletter-btn" type="submit"><i class="fas fa-envelope"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	<!-- Footer ends -->
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
